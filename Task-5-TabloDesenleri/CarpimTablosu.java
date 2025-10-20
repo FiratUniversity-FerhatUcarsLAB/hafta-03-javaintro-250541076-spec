@@ -1,0 +1,12 @@
+public class CarpimTablosu {
+    public static void main(String[] args) {
+    System.out.println("2'nin Çarpım Tablosu");
+    System.out.println("--------------------");
+    
+    int sayi = 2;
+    
+    for (int i = 1; i<= 10; i++) {
+        System.out.println(sayi + " x " + i + " = " + (sayi * i));
+    }
+    }
+}
